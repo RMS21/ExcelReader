@@ -1,0 +1,7 @@
+/home/rasoul/ExcelDataReader/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/rasoul/ExcelDataReader/bin/Debug/ICSharpCode.SharpZipLib.dll
+/home/rasoul/ExcelDataReader/bin/Debug/Excel.dll
+/home/rasoul/ExcelDataReader/bin/Debug/ExcelDataReader.exe.mdb
+/home/rasoul/ExcelDataReader/bin/Debug/ExcelDataReader.exe
+/home/rasoul/ExcelDataReader/obj/x86/Debug/ExcelDataReader.exe
+/home/rasoul/ExcelDataReader/obj/x86/Debug/ExcelDataReader.exe.mdb
