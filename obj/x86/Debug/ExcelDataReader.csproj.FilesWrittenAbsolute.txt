@@ -5,3 +5,10 @@
 /home/rasoul/ExcelDataReader/bin/Debug/ExcelDataReader.exe
 /home/rasoul/ExcelDataReader/obj/x86/Debug/ExcelDataReader.exe
 /home/rasoul/ExcelDataReader/obj/x86/Debug/ExcelDataReader.exe.mdb
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/obj/x86/Debug/ExcelDataReader.exe
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/obj/x86/Debug/ExcelDataReader.exe.mdb
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/bin/Debug/ICSharpCode.SharpZipLib.dll
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/bin/Debug/Excel.dll
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/bin/Debug/ExcelDataReader.exe.mdb
+/media/rasoul/609E943F61931A5D/CSE/C#/Projects/ExcelDataReader/bin/Debug/ExcelDataReader.exe

@@ -1,4 +1,4 @@
-﻿﻿using Excel;
+﻿using Excel;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,6 +10,7 @@ namespace ExcelDataReader
 	public class ExcelData
 	{
 		private string _path;
+		private List<List<string>> _rows = new List<List<string>>();
 
 
 		public ExcelData(string path)
@@ -49,8 +50,21 @@ namespace ExcelDataReader
 			return rows;
 		}
 
-		public IEnumerable<DataRow> getData(){
-			return this.getRows ("Sheet1");
+		public List<List<string>> getData(){
+
+			var rows = this.getRows("Sheet1");
+
+			foreach (var row in rows)
+			{
+				List<string> list = new List<string>();
+
+				for (int i = 0; i <= row.ItemArray.GetUpperBound(0); i++)
+				{
+					list.Add(row[i].ToString());
+				}
+				_rows.Add (list);
+			}
+			return _rows;
 		}
 
 
@@ -59,8 +73,13 @@ namespace ExcelDataReader
 	class Program{
 		public static void Main(String [] args){
 			
-			ExcelData e = new ExcelData (//path to file);
-			e.getData ();
+			ExcelData e = new ExcelData ("/home/rasoul/a.xlsx");
+			List<List<string>> temp = e.getData ();
+			foreach(List<string> row in temp){
+				foreach (string item in row) {
+					Console.WriteLine (item);
+				}	
+			}
 		}
 	}
 }
